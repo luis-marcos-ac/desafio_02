@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet"  href="./styles/style_login.css">
+</head>
+<body>
+    <h2 class="Formulario_cadstro">Formulário de Cadastro</h2>
+    <form class="formulario" action="#" method="post" enctype="multipart/form-data">
+        <input class="formulario__entrada" type="text" id="nome" name="nome" placeholder="Nome" required><br><br>
+        <input class="formulario__entrada" type="text" id="cidade" name="cidade" placeholder="Cidade" required><br><br>
+        <input class="formulario__entrada" type="text" id="endereco" name="endereco" placeholder="Endereço" required><br><br>
+        <input class="formulario__entrada" type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="CPF: 000.000.000-00" required><br><br>
+        <input class="formulario__entrada" type="tel" id="telefone" name="telefone" pattern="\(\d{2}\)\s\d{4,5}-\d{4}" placeholder="Telefone: (00) 12345-6789" required><br><br>
+        <input class="formulario__entrada" type="password" id="senha" name="senha" placeholder="Senha" required><br><br>
+        <input class="formulario__entrada" type="password" id="confirmar_senha" name="confirmar_senha" placeholder="Confirmar Senha" required><br><br>
+        <input class="formulario__entrada" type="file" id="documento" name="documento" accept="application/pdf" required><br><br>
+        <div class="button-container">
+            <button type="button" id="anexar">Anexar Documento</button>
+            <button type="submit" id="enviar">Finalizar cadastro</button>
+        </div>
+    </form>
+    <footer class="rodape">
+        <p>Estado do Maranhão</p>
+        <p>PATRONAGE - Administração de Bolsas e Auxílios Fapema</p>
+        <p>Fundação de Amparo à Pesquisa e desenvolvimento científico e tecnológico do Maranhão</p>
+    </footer>
+</body>
+</html>

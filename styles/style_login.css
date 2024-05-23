@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Ubuntu&display=swap');
+
+:root{
+    --fonte-primaria: 'Oswald', sans-serif;
+    --fonte-secundaria: 'Ubuntu', sans-serif;
+
+    --cor-primaria: #FFFC9E;
+    --cor-secundaria: #FFFBDA;
+    --cor-terciaria: #FFE0B5;
+
+body {
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: var(--cor-secundaria);
+}
+
+.Formulario_cadstro{
+    font-family: var(--fonte-primaria);
+    text-align: center;
+}
+
+.formulario {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    margin: 30px auto;
+}
+
+.formulario__entrada{
+    font-family: var(--fonte-secundaria);
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="password"],
+form input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-family: var(--fonte-secundaria);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-secundaria);
+}
+
+.button-container button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-family: var(--fonte-secundaria);
+}
+
+.rodape{
+    padding: 3px;
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    text-align: center;

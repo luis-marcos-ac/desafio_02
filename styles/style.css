@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Ubuntu&display=swap');
+
+:root{
+    --fonte-primaria: 'Oswald', sans-serif;
+    --fonte-secundaria: 'Ubuntu', sans-serif;
+
+    --cor-primaria: #FFFC9E;
+    --cor-secundaria: #FFFBDA;
+    --cor-terciaria: #FFE0B5;
+
+}
+
+.body{
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    width: 100%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 100px;
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho__menu__link{
+    font-size: 25px;
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-primaria)
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-secundaria);
+}
+
+.conteudo__links{
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-secundaria);
+}
+
+.outros__links__abaixo{
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+    background-color: var(--cor-secundaria);
+    flex-direction: column;
+}
+
+.login{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login__entrar{
+    width: 300px;
+}
+
+.login__fazer{
+    font-family: var(--fonte-secundaria);
+    font-size: 25px;
+}
+
+.login__fazer__usuario{
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.login__fazer__caixa{
+    font-family: var(--fonte-secundaria);
+    border-radius: 5px;
+    border: 1px solid; 
+}
+
+.rodape{
+    padding: 3px;
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+}
